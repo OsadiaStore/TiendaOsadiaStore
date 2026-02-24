@@ -30,7 +30,7 @@ const productos = [
         nombre: "Remera Gangster",
         precio: "15.000",
         descripcion: "La Remera Gangster combina minimalismo y actitud urbana en una prenda versátil y cómoda para el día a día. Confeccionada en algodón premium de tacto suave, ofrece una caída natural que se adapta al cuerpo sin perder estructura. Su diseño en color blanco limpio resalta la estampa frontal “Gangster” en tipografía de inspiración street, logrando un equilibrio entre estilo clásico y personalidad contemporánea. Ideal para quienes buscan una prenda simple pero con carácter. Perfecta para combinar con jeans, joggers o bermudas, tanto en looks relajados como en outfits más urbanos.",
-        imagenes: ["Ropa/Oversize Remeras/IMG13 (1).PNG", "Ropa/Oversize Remeras/IMG13 (2).PNG", "Ropa/Oversize Remeras/IMG13 (3).PNG"],
+        imagenes: ["Ropa/Oversize Remeras/ganster.png", "Ropa/Oversize Remeras/ganster1.png", "Ropa/Oversize Remeras/ganster2.png"],
         categoria: "Remeras Oversize"
     },
     {
@@ -38,7 +38,7 @@ const productos = [
         nombre: "Remera Butterfly Oversize",
         precio: "15.000",
         descripcion: "La Remera Butterfly Oversize fusiona arte y estilo urbano en una prenda con fuerte personalidad. Confeccionada en algodón premium de tacto suave, ofrece una caída relajada y cómoda ideal para el uso diario. Su diseño destaca por la estampa trasera de mariposas en tonos turquesa y negro, acompañada de tipografía estilo street que refuerza su identidad moderna. El color rosa malva aporta un equilibrio entre actitud y versatilidad, convirtiéndola en una pieza clave para looks urbanos con carácter. Perfecta para combinar con jeans, joggers o bermudas, logrando outfits relajados pero con presenciaLa Remera Mari combina minimalismo y actitud urbana en una prenda versátil y cómoda para el día a día. Confeccionada en algodón premium de tacto suave, ofrece una caída natural que se adapta al cuerpo sin perder estructura. Su diseño en color blanco limpio resalta la estampa frontal “Mari” en tipografía de inspiración street, logrando un equilibrio entre estilo clásico y personalidad contemporánea. Ideal para quienes buscan una prenda simple pero con carácter. Perfecta para combinar con jeans, joggers o bermudas, tanto en looks relajados como en outfits más urbanos.",
-        imagenes: ["Ropa/Oversize Remeras/IMG10 (1).PNG", "Ropa/Oversize Remeras/IMG10 (2).PNG"],
+        imagenes: ["Ropa/Oversize Remeras/mari.png", "Ropa/Oversize Remeras/mari1.png"],
         categoria: "Remeras Oversize"
     },
     {
@@ -46,7 +46,7 @@ const productos = [
         nombre: "Remera Speed 23 Oversize",
         precio: "15.000",
         descripcion: "LRemera oversize confeccionada en algodón premium, suave y cómoda para el uso diario. Presenta estampa frontal estilo deportivo con diseño “23” y detalles gráficos en rojo y blanco que le aportan un look urbano y moderno. Ideal para combinar con jeans o joggers y lograr un outfit relajado con personalidad.a Remera Butterfly Oversize fusiona arte y estilo urbano en una prenda con fuerte personalidad. Confeccionada en algodón premium de tacto suave, ofrece una caída relajada y cómoda ideal para el uso diario. Su diseño destaca por la estampa trasera de mariposas en tonos turquesa y negro, acompañada de tipografía estilo street que refuerza su identidad moderna. El color rosa malva aporta un equilibrio entre actitud y versatilidad, convirtiéndola en una pieza clave para looks urbanos con carácter. Perfecta para combinar con jeans, joggers o bermudas, logrando outfits relajados pero con presenciaLa Remera Mari combina minimalismo y actitud urbana en una prenda versátil y cómoda para el día a día. Confeccionada en algodón premium de tacto suave, ofrece una caída natural que se adapta al cuerpo sin perder estructura. Su diseño en color blanco limpio resalta la estampa frontal “Mari” en tipografía de inspiración street, logrando un equilibrio entre estilo clásico y personalidad contemporánea. Ideal para quienes buscan una prenda simple pero con carácter. Perfecta para combinar con jeans, joggers o bermudas, tanto en looks relajados como en outfits más urbanos.",
-        imagenes: ["Ropa/Oversize Remeras/IMG01 (1).PNG", "Ropa/Oversize Remeras/IMG01 (2).PNG", "Ropa/Oversize Remeras/IMG01 (3).PNG"],
+        imagenes: ["Ropa/Oversize Remeras/veinte.png", "Ropa/Oversize Remeras/veinte1.png", "Ropa/Oversize Remeras/veinte2.png"],
         categoria: "Remeras Oversize"
     },
     {
@@ -54,7 +54,7 @@ const productos = [
         nombre: "Remera BoxyFit Duty",
         precio: "14.000",
         descripcion: "Remera oversize confeccionada en algodón premium, suave y cómoda para el uso diario. Presenta estampa frontal estilo deportivo con diseño “23” y detalles gráficos en rojo y blanco que le aportan un look urbano y moderno. Ideal para combinar con jeans o joggers y lograr un outfit relajado con personalidad.a Remera Butterfly Oversize fusiona arte y estilo urbano en una prenda con fuerte personalidad. Confeccionada en algodón premium de tacto suave, ofrece una caída relajada y cómoda ideal para el uso diario. Su diseño destaca por la estampa trasera de mariposas en tonos turquesa y negro, acompañada de tipografía estilo street que refuerza su identidad moderna. El color rosa malva aporta un equilibrio entre actitud y versatilidad, convirtiéndola en una pieza clave para looks urbanos con carácter. Perfecta para combinar con jeans, joggers o bermudas, logrando outfits relajados pero con presenciaLa Remera Mari combina minimalismo y actitud urbana en una prenda versátil y cómoda para el día a día. Confeccionada en algodón premium de tacto suave, ofrece una caída natural que se adapta al cuerpo sin perder estructura. Su diseño en color blanco limpio resalta la estampa frontal “Mari” en tipografía de inspiración street, logrando un equilibrio entre estilo clásico y personalidad contemporánea. Ideal para quienes buscan una prenda simple pero con carácter. Perfecta para combinar con jeans, joggers o bermudas, tanto en looks relajados como en outfits más urbanos.",
-        imagenes: ["Ropa/Remeras Boxy Fitt/IMG97 (1).PNG", "Ropa/Remeras Boxy Fitt/IMG97 (2).PNG", "Ropa/Remeras Boxy Fitt/IMG97 (3).PNG"],
+        imagenes: ["Ropa/Remeras Boxy Fitt/dutty.png", "Ropa/Remeras Boxy Fitt/dutty1.png", "Ropa/Remeras Boxy Fitt/dutty2.png"],
         categoria: "Remeras BoxyFit"
 
     },
@@ -63,7 +63,7 @@ const productos = [
         nombre: "Remera BoxyFit Rome",
         precio: "14.000",
         descripcion: "Remera oversize confeccionada en algodón premium, suave y cómoda para el uso diario. Presenta estampa frontal estilo deportivo con diseño “23” y detalles gráficos en rojo y blanco que le aportan un look urbano y moderno. Ideal para combinar con jeans o joggers y lograr un outfit relajado con personalidad.a Remera Butterfly Oversize fusiona arte y estilo urbano en una prenda con fuerte personalidad. Confeccionada en algodón premium de tacto suave, ofrece una caída relajada y cómoda ideal para el uso diario. Su diseño destaca por la estampa trasera de mariposas en tonos turquesa y negro, acompañada de tipografía estilo street que refuerza su identidad moderna. El color rosa malva aporta un equilibrio entre actitud y versatilidad, convirtiéndola en una pieza clave para looks urbanos con carácter. Perfecta para combinar con jeans, joggers o bermudas, logrando outfits relajados pero con presenciaLa Remera Mari combina minimalismo y actitud urbana en una prenda versátil y cómoda para el día a día. Confeccionada en algodón premium de tacto suave, ofrece una caída natural que se adapta al cuerpo sin perder estructura. Su diseño en color blanco limpio resalta la estampa frontal “Mari” en tipografía de inspiración street, logrando un equilibrio entre estilo clásico y personalidad contemporánea. Ideal para quienes buscan una prenda simple pero con carácter. Perfecta para combinar con jeans, joggers o bermudas, tanto en looks relajados como en outfits más urbanos.",
-        imagenes: ["Ropa/Remeras Boxy Fitt/IMG22 (1).PNG", "Ropa/Remeras Boxy Fitt/IMG22 (2).PNG"],
+        imagenes: ["Ropa/Remeras Boxy Fitt/rome.png", "Ropa/Remeras Boxy Fitt/rome1.png"],
         categoria: "Remeras BoxyFit"
 
     },
@@ -72,7 +72,7 @@ const productos = [
         nombre: "Remera BoxyFit Speed 23",
         precio: "14.000",
         descripcion: "Remera oversize confeccionada en algodón premium, suave y cómoda para el uso diario. Presenta estampa frontal estilo deportivo con diseño “23” y detalles gráficos en rojo y blanco que le aportan un look urbano y moderno. Ideal para combinar con jeans o joggers y lograr un outfit relajado con personalidad.a Remera Butterfly Oversize fusiona arte y estilo urbano en una prenda con fuerte personalidad. Confeccionada en algodón premium de tacto suave, ofrece una caída relajada y cómoda ideal para el uso diario. Su diseño destaca por la estampa trasera de mariposas en tonos turquesa y negro, acompañada de tipografía estilo street que refuerza su identidad moderna. El color rosa malva aporta un equilibrio entre actitud y versatilidad, convirtiéndola en una pieza clave para looks urbanos con carácter. Perfecta para combinar con jeans, joggers o bermudas, logrando outfits relajados pero con presenciaLa Remera Mari combina minimalismo y actitud urbana en una prenda versátil y cómoda para el día a día. Confeccionada en algodón premium de tacto suave, ofrece una caída natural que se adapta al cuerpo sin perder estructura. Su diseño en color blanco limpio resalta la estampa frontal “Mari” en tipografía de inspiración street, logrando un equilibrio entre estilo clásico y personalidad contemporánea. Ideal para quienes buscan una prenda simple pero con carácter. Perfecta para combinar con jeans, joggers o bermudas, tanto en looks relajados como en outfits más urbanos.",
-        imagenes: ["Ropa/Remeras Boxy Fitt/IMG16 (2).PNG", "Ropa/Remeras Boxy Fitt/IMG16 (1).PNG"],
+        imagenes: ["Ropa/Remeras Boxy Fitt/veinte.png", "Ropa/Remeras Boxy Fitt/veinte1.png"],
         categoria: "Remeras BoxyFit"
 
     },
