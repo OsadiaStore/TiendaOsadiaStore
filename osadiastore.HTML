@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OSADIA Store | Vestirse Sin Pedir Permiso</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="shortcut icon" href="OSADIA LOGO (2).png" type="image/png">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Bebas+Neue&display=swap"
+        rel="stylesheet">
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+
+        .font-bebas {
+            font-family: 'Bebas Neue', sans-serif;
+        }
+
+        /* Animación suave para el menú */
+        #sidebar-content {
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+
+        /* Efecto de zoom en imágenes de producto */
+        .product-card:hover .product-image {
+            transform: scale(1.05);
+        }
+    </style>
+</head>
+
+<body class="bg-white text-black">
+
+    <nav class="bg-black text-white h-20 flex items-center justify-between sticky top-0 z-50 px-6 md:px-12 shadow-xl">
+        <button id="open-menu" class="z-50 focus:outline-none">
+            <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7" />
+            </svg>
+        </button>
+
+        <div class="absolute left-1/2 -translate-x-1/2 flex justify-center items-center h-full overflow-visible">
+            <a href="#" class="block z-10">
+                <img src="OSADIA LOGO (6).png" alt="OSADIA STORE"
+                    class="h-12 md:h-52 w-auto object-contain transform translate-y-0 md:translate-y-3">
+            </a>
+        </div>
+    </nav>
+
+    <header class="relative h-[80vh] flex items-center justify-center overflow-hidden bg-black">
+        <img src="OSAD A (2).png" alt="Hero Background"
+            class="absolute inset-0 w-full h-full object-cover opacity-80 scale-105">
+        <div class="absolute inset-0 bg-black/20"></div>
+    </header>
+
+    <section id="nuevos" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h3 class="text-[10px] uppercase tracking-[0.5em] text-gray-500 mb-2">Curated Selection</h3>
+                <h2 class="font-bebas text-5xl tracking-wide">NUEVOS INGRESOS</h2>
+            </div>
+            <a href="#"
+                class="text-[10px] uppercase tracking-widest border-b border-black pb-1 hover:opacity-50 transition mt-4 md:mt-0">Ver
+                todo</a>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <a href="Productos.html?id=camisa-boxy-celeste" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Pink Productos/Camisa Boxy 3.jpeg" alt="Camisa Boxy"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                    <div
+                        class="absolute bottom-0 left-0 w-full p-4 translate-y-full group-hover:translate-y-0 transition-transform bg-black/5 backdrop-blur-sm">
+                        <p class="text-[10px] text-center uppercase tracking-widest">Ver detalle</p>
+                    </div>
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Camisa Boxy Texture</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 15.000</p>
+                </div>
+            </a>
+            <a href="Productos.html?id=remera-la-girl" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Pink Productos/L.A Girl 2.jpeg" alt="Remera"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                    <div
+                        class="absolute bottom-0 left-0 w-full p-4 translate-y-full group-hover:translate-y-0 transition-transform bg-black/5 backdrop-blur-sm">
+                        <p class="text-[10px] text-center uppercase tracking-widest">Ver detalle</p>
+                    </div>
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">L.A. Girl Vintage Tee</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 10.000</p>
+                </div>
+            </a>
+            <a href="Productos.html?id=top-abstract" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Pink Productos/TOP Mujer.jpeg" alt="Top"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                    <div
+                        class="absolute bottom-0 left-0 w-full p-4 translate-y-full group-hover:translate-y-0 transition-transform bg-black/5 backdrop-blur-sm">
+                        <p class="text-[10px] text-center uppercase tracking-widest">Ver detalle</p>
+                    </div>
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Top Abstract "Osadía"</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 9.000</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="oversize" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h3 class="text-[10px] uppercase tracking-[0.5em] text-gray-500 mb-2">Curated Selection</h3>
+                <h2 class="font-bebas text-5xl tracking-wide">Remeras Oversize</h2>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <a href="Productos.html?id=RemeGangster" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Oversize Remeras/IMG13 (1).png" alt="Reme"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Remera Gangster</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 15.000</p>
+                </div>
+            </a>
+            <a href="Productos.html?id=RemeMari" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Oversize Remeras/IMG10 (1).png" alt="Reme"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Remera Butterfly</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 15.000</p>
+                </div>
+            </a>
+            <a href="Productos.html?id=Reme23" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Oversize Remeras/IMG01 (1).png" alt="Reme"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Remera Speed 23</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 15.000</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="boxyfit" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h3 class="text-[10px] uppercase tracking-[0.5em] text-gray-500 mb-2">Curated Selection</h3>
+                <h2 class="font-bebas text-5xl tracking-wide">Remeras BoxyFit</h2>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <a href="Productos.html?id=RemeBoxyDUTY" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Remeras Boxy Fitt/IMG97 (1).png"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Remera BoxyFit Duty</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 14.000</p>
+                </div>
+            </a>
+            <a href="Productos.html?id=RemeRome" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Remeras Boxy Fitt/IMG22 (2).png"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Remera BoxyFit Rome</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 14.000</p>
+                </div>
+            </a>
+            <a href="Productos.html?id=Reme23BOXY" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Remeras Boxy Fitt/IMG16 (2).png"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Remera Boxy Speed 23</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 14.000</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="musculosas" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h3 class="text-[10px] uppercase tracking-[0.5em] text-gray-500 mb-2">Curated Selection</h3>
+                <h2 class="font-bebas text-5xl tracking-wide">Musculosas Oversize</h2>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <a href="Productos.html?id=MuscuBlanca" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Musculosas/IMG51 (1).png"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Musculosa Blanca</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 13.500</p>
+                </div>
+            </a>
+            <a href="Productos.html?id=MuscuVerde" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Musculosas/IMG20 (1).png"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Musculosa Verde</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 13.500</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section id="puperas" class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h3 class="text-[10px] uppercase tracking-[0.5em] text-gray-500 mb-2">Curated Selection</h3>
+                <h2 class="font-bebas text-5xl tracking-wide">Remeras Puperas</h2>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <a href="Productos.html?id=popu" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Puperas/Puperas Adidas.png"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Pupera Adidas</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 13.500</p>
+                </div>
+            </a>
+            <a href="Productos.html?id=POOPU" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Puperas/Puperas.png"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Pupera Osadía</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 10.500</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h3 class="text-[10px] uppercase tracking-[0.5em] text-gray-500 mb-2">Curated Selection</h3>
+                <h2 class="font-bebas text-5xl tracking-wide">Jeans Baggy</h2>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <a href="Productos.html?id=jeans" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Jeans Baggy/IMG50 (2).png" alt="JEANS BAGGY OSADIA"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                    <div
+                        class="absolute bottom-0 left-0 w-full p-4 translate-y-full group-hover:translate-y-0 transition-transform bg-black/5 backdrop-blur-sm">
+                        <p class="text-[10px] text-center uppercase tracking-widest">Ver detalle</p>
+                    </div>
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Jeans Baggy "Osadía"</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 47.900</p>
+                </div>
+            </a>
+            <a href="Productos.html?id=jeanss" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Jeans Baggy/IMG09 (2).png" alt="JEANS BAGGY OSADIA"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                    <div
+                        class="absolute bottom-0 left-0 w-full p-4 translate-y-full group-hover:translate-y-0 transition-transform bg-black/5 backdrop-blur-sm">
+                        <p class="text-[10px] text-center uppercase tracking-widest">Ver detalle</p>
+                    </div>
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Jeans Baggy "Osadía"</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 44.900</p>
+                </div>
+            </a>
+            <a href="Productos.html?id=jeansss" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Jeans Baggy/IMG95 (2).png" alt="JEANS BAGGY OSADIA"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                    <div
+                        class="absolute bottom-0 left-0 w-full p-4 translate-y-full group-hover:translate-y-0 transition-transform bg-black/5 backdrop-blur-sm">
+                        <p class="text-[10px] text-center uppercase tracking-widest">Ver detalle</p>
+                    </div>
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Jeans Baggy "Osadía"</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 44.900</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <section class="max-w-7xl mx-auto px-6 py-20">
+        <div class="flex flex-col md:flex-row justify-between items-end mb-12">
+            <div>
+                <h3 class="text-[10px] uppercase tracking-[0.5em] text-gray-500 mb-2">Curated Selection</h3>
+                <h2 class="font-bebas text-5xl tracking-wide">BERMUDAS</h2>
+            </div>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+            <a href="Productos.html?id=Bermu" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Bermudas/IMG50 (2).png" alt="BERMUDAS OSADIA"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                    <div
+                        class="absolute bottom-0 left-0 w-full p-4 translate-y-full group-hover:translate-y-0 transition-transform bg-black/5 backdrop-blur-sm">
+                        <p class="text-[10px] text-center uppercase tracking-widest">Ver detalle</p>
+                    </div>
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Bermudas "Osadía"</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 37.900</p>
+                </div>
+            </a>
+            <a href="Productos.html?id=Bermuu" class="product-card group cursor-pointer">
+                <div class="relative overflow-hidden bg-[#f4f4f4] aspect-[3/4]">
+                    <img src="/Ropa/Bermudas/IMG 60 (1).png" alt="BERMUDAS OSADIA"
+                        class="product-image w-full h-full object-cover transition-transform duration-700">
+                    <div
+                        class="absolute bottom-0 left-0 w-full p-4 translate-y-full group-hover:translate-y-0 transition-transform bg-black/5 backdrop-blur-sm">
+                        <p class="text-[10px] text-center uppercase tracking-widest">Ver detalle</p>
+                    </div>
+                </div>
+                <div class="mt-6 text-center">
+                    <h4 class="text-[11px] uppercase tracking-[0.2em] font-bold">Bermudas "Osadía"</h4>
+                    <p class="text-gray-500 text-[12px] mt-2">$ 44.900</p>
+                </div>
+            </a>
+        </div>
+    </section>
+
+    <footer class="bg-black text-white py-12 px-6 text-center">
+        <p class="font-bebas text-2xl tracking-widest mb-4">OSADÍA TIENDA DE ROPA</p>
+        <p class="text-[9px] uppercase tracking-[0.3em] opacity-50">© 2026 Osadía Store - Vestirse sin pedir permiso.
+        </p>
+    </footer>
+
+    <div id="mobile-sidebar" class="fixed inset-0 z-[100] invisible">
+        <div id="overlay" class="absolute inset-0 bg-black/80 opacity-0 transition-opacity duration-500"></div>
+        <div id="sidebar-content"
+            class="absolute left-0 top-0 h-full w-[80%] max-w-[300px] bg-black p-8 transform -translate-x-full">
+            <div class="flex justify-between items-center mb-12">
+                <span class="text-[12px] tracking-[0.3em] font-bold text-white uppercase">Menu</span>
+                <button id="close-menu" class="text-white">
+                    <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path d="M6 18L18 6M6 6l12 12" />
+                    </svg>
+                </button>
+            </div>
+            <nav class="flex flex-col space-y-6 text-[11px] tracking-[0.2em] uppercase text-white font-light">
+                <a href="#" class="border-b border-gray-900 pb-2 menu-link">Home</a>
+                <a href="#nuevos" class="border-b border-gray-900 pb-2 menu-link">Nuevos Ingresos</a>
+                <a href="#oversize" class="border-b border-gray-900 pb-2 menu-link">Remeras Oversize</a>
+                <a href="#boxyfit" class="border-b border-gray-900 pb-2 menu-link">Remeras Boxy Fit</a>
+                <a href="#musculosas" class="border-b border-gray-900 pb-2 menu-link">Musculosas</a>
+                <a href="#puperas" class="border-b border-gray-900 pb-2 menu-link">Puperas</a>
+                <a href="#jeans" class="border-b border-gray-900 pb-2 menu-link">Jeans Baggy</a>
+                <a href="#bermudas" class="border-b border-gray-900 pb-2 menu-link">Bermudas</a>
+            </nav>
+        </div>
+    </div>
+
+    <script>
+        const openBtn = document.getElementById('open-menu');
+        const closeBtn = document.getElementById('close-menu');
+        const sidebar = document.getElementById('mobile-sidebar');
+        const sidebarContent = document.getElementById('sidebar-content');
+        const overlay = document.getElementById('overlay');
+        const menuLinks = document.querySelectorAll('.menu-link');
+
+        function toggleMenu() {
+            sidebar.classList.toggle('invisible');
+            sidebarContent.classList.toggle('-translate-x-full');
+            overlay.classList.toggle('opacity-0');
+        }
+
+        openBtn.onclick = toggleMenu;
+        closeBtn.onclick = toggleMenu;
+        overlay.onclick = toggleMenu;
+
+        // Cerrar menú automáticamente al hacer clic en un enlace
+        menuLinks.forEach(link => {
+            link.onclick = () => {
+                // Pequeño retraso para que se vea el clic antes de cerrar
+                setTimeout(toggleMenu, 150);
+            };
+        });
+    </script>
+</body>
+
+</html>
