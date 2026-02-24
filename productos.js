@@ -132,7 +132,7 @@ const productos = [
         nombre: "Jeans Baggy Osadia",
         precio: "44.900",
         descripcion: "Jeans baggy premium, suave y cómodo para el uso diario. Presentan corte relajado y diseño urbano que combina estilo clásico con modernidad. Ideal para combinar con remeras oversize o camisetas de estilo streetwear, logrando outfits relajados pero con personalidad. Su diseño en color negro aporta versatilidad y elegancia, convirtiéndolos en una pieza clave para looks urbanos.",
-        imagenes: ["/Ropa/Jeans Baggy/IMG95 (2).png", "/Ropa/Jeans Baggy/IMG95 (1).png"],
+        imagenes: ["/Ropa/Jeans Baggy/jeansnegro.png", "/Ropa/Jeans Baggy/jeansnegro1.png"],
         categoria: "Jeans Baggy"
     },
     {
@@ -140,7 +140,7 @@ const productos = [
         nombre: "Bermudas Osadia",
         precio: "37.900",
         descripcion: "Bermuda premium. Presentan corte relajado y diseño urbano que combina estilo clásico con modernidad. Ideal para combinar con remeras oversize o camisetas de estilo streetwear, logrando outfits relajados pero con personalidad. Su diseño aporta versatilidad y elegancia, convirtiéndolos en una pieza clave para looks urbanos.",
-        imagenes: ["/Ropa/Bermudas/IMG50 (2).png", "/Ropa/Bermudas/IMG50 (1).png"],
+        imagenes: ["/Ropa/Bermudas/bermuda.png", "/Ropa/Bermudas/bermuda1.png"],
         categoria: "Bermudas"
     },
     {
@@ -148,7 +148,7 @@ const productos = [
         nombre: "Bermudas Osadia",
         precio: "37.900",
         descripcion: "Bermudas premium, suave y cómodo para el uso diario. Presentan corte relajado y diseño urbano que combina estilo clásico con modernidad. Ideal para combinar con remeras oversize o camisetas de estilo streetwear, logrando outfits relajados pero con personalidad. Su diseño en color negro aporta versatilidad y elegancia, convirtiéndolos en una pieza clave para looks urbanos.",
-        imagenes: ["/Ropa/Bermudas/IMG 60 (1).png", "/Ropa/Bermudas/IMG 60 (2).png", "/Ropa/Bermudas/IMG 60 (3).png"],
+        imagenes: ["/Ropa/Bermudas/bermudanegra1.png", "/Ropa/Bermudas/bermudanegra2.png", "/Ropa/Bermudas/bermudanegra3.png"],
         categoria: "Bermudas"
     },
 ];
